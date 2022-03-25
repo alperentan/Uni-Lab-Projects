@@ -1,2 +1,2 @@
-# Car-Otomat-Machine
-Developed with Platformio in VsCode Ide
+# Autmat System
+CPP code for automat money exchange system, compatible with Ardunio Mega
