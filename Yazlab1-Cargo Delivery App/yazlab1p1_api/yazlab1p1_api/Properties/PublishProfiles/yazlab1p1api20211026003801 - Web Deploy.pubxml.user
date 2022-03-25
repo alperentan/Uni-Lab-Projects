@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA432MN3UiqUCFFCxbbg4vPQAAAAACAAAAAAAQZgAAAAEAACAAAAAC7aGvaoA3Th55LzY7RX7jtAqxTLPEdwZiDdTYPprFXQAAAAAOgAAAAAIAACAAAAD8qojxfhQB3UZamCUKn3zUZtr98QyB25N6RsxFbIyAhoAAAACNPsr4krkQg/VwmuD1it6p+JMQAsTnbKVlOLtHJmaXQ89rHmzNXyDIG7ItvlopQPjqtdVNvgV6UxRV8RnBS9RP2q2X/U4QxW1RLbbfHw7lRumx6gAKQmiVJn4xdHQ1HsezGstSqohoLM9nChWs61qWLhyNi1tXR8CO63JjVwCUkkAAAADq+uCN2iG5YpM/4XnIkAeFZiYeiAsn+vSkvX6VVyCo+JtP80glzPDF6gpHHkurd+g6bnX4NE6Fp+TYPPYZQRCM</EncryptedPassword>
+    <History>True|2021-10-28T20:24:57.8414835Z;True|2021-10-28T21:52:47.8024269+03:00;True|2021-10-28T21:32:12.3689516+03:00;True|2021-10-28T21:31:31.6364781+03:00;True|2021-10-28T21:28:59.4568799+03:00;True|2021-10-28T21:26:45.4023177+03:00;True|2021-10-27T22:29:32.2866334+03:00;True|2021-10-27T21:41:51.3958646+03:00;True|2021-10-27T21:36:39.3025456+03:00;True|2021-10-27T21:26:05.2924449+03:00;True|2021-10-27T21:23:00.2441308+03:00;True|2021-10-26T01:01:35.9364080+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="yazlab1proje1dbAppCon">
+      <Value>Data Source=35.238.250.203%3bInitial Catalog=yazlab1proje1db%3bUser Id=root%3bpassword=1234</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
