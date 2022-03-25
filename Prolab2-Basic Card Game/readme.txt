@@ -1,6 +1,3 @@
-190201054-Alperen Tan
-180201074-Oğuz Narlı
-
 Projemiz Netbeans 12.1 ortamında Java programlama dilinde Swing kütüphanesi kullanılarak test edilmiştir.
 
 Projenin kurulumu için projenin bulunduğu dosyada bulunan (prolab2\dist\prolab2.jar) JAR dosyasını kullanabilirsiniz.
