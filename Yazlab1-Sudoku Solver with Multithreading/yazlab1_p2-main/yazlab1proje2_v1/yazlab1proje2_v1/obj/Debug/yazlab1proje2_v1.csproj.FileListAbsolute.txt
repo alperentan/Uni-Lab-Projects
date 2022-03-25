@@ -1,0 +1,10 @@
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\bin\Debug\yazlab1proje2_v1.exe.config
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\bin\Debug\yazlab1proje2_v1.exe
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\bin\Debug\yazlab1proje2_v1.pdb
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\obj\Debug\yazlab1proje2_v1.csproj.AssemblyReference.cache
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\obj\Debug\yazlab1proje2_v1.Form1.resources
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\obj\Debug\yazlab1proje2_v1.Properties.Resources.resources
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\obj\Debug\yazlab1proje2_v1.csproj.GenerateResource.cache
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\obj\Debug\yazlab1proje2_v1.csproj.CoreCompileInputs.cache
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\obj\Debug\yazlab1proje2_v1.exe
+C:\Users\tanal\source\repos\yazlab1proje2_v1\yazlab1proje2_v1\obj\Debug\yazlab1proje2_v1.pdb
