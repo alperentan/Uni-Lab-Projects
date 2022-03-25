@@ -1,0 +1,17 @@
+{% extends "sitemanager/header.html" %}
+
+{% block content %} 
+
+{% load crispy_forms_tags %}         
+
+<!--Register--> 
+<div class="container py-5">
+	<h1>Sorgu 2 Paneli</h1>
+	<form method="POST">
+		{% csrf_token %}
+		{{ pdfs|crispy }}
+		<button class="btn btn-primary" type="submit">Sorgula</button>
+	</form>
+</div>
+
+{% endblock %}

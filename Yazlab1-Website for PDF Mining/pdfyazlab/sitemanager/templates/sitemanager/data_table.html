@@ -1,0 +1,35 @@
+{% extends "sitemanager/header.html" %}
+
+{% block content %}
+<br>
+<table class="table" style="background-color: #e4f0f8;width: 80%;margin-left: auto;
+margin-right: auto;">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Yazar İsim</th>
+        <th scope="col">Yazar Numarası</th>
+        <th scope="col">Yazar Öğretim Türü</th>
+        <th scope="col">Ders İsmi</th>
+        <th scope="col">Teslim Tarihi</th>
+        <th scope="col">Proje Başlığı</th>
+        <th scope="col">Detay</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for pdf in pdfs %}
+      <tr>
+        <td>{{ pdf.id }}</td>
+        <td>{{ pdf.ogr_adi }}</td>
+        <td>{{ pdf.ogr_no }}</td>
+        <td>{{ pdf.ogr_tur }}</td>
+        <td>{{ pdf.ders_adi }}</td>
+        <td>{{ pdf.proje_teslim_donemi }}</td>
+        <td>{{ pdf.proje_basligi }}</td>
+        <td><a type="button" href="/data_detail/{{pdf.id}}" class="btn btn-info">Proje Detay</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% endblock content %}
+

@@ -1,0 +1,28 @@
+{% extends "sitemanager/header.html" %}
+
+{% block content %}      
+<div class="container">
+    <div class="col-md-12">
+        <h1>{{ dataDetail.proje_basligi }}</h1>
+        <h3>Yazar Bilgileri:</h3>
+        <div class="pull-left">
+            <span class="label label-info">Yazar Adı-Soyadı:{{ dataDetail.ogr_adi }}</span>
+            <span class="label label-success">Öğrenci Numarası:{{ dataDetail.ogr_no }}</span><br>
+            <span class="label label-primary">Öğretim Türü:{{ dataDetail.ogr_tur }}</span>
+            <span class="label label-info">Ders Adı:{{ dataDetail.ders_adi }}</span>
+            <span class="label label-warning">Danışmanlar:{{ dataDetail.danisman_bilgileri }}</span>
+        </div>         
+         <br><br>
+        <p>{{ dataDetail.proje_ozeti }}</p>
+        <a href="{{ dataDetail.pdf.url }}" download>PDF Linki</a>
+        <p></p>
+        <div>
+            <span class="badge">Yayımlandığı Dönem:{{ dataDetail.proje_teslim_donemi }}</span><br>
+            <span class="badge">{{ dataDetail.anahtar_kelimeler }}</span><br>
+            <span class="badge">Jüriler:{{ dataDetail.juri_bilgileri }}</span>
+        </div>
+        
+    </div>
+</div>
+
+{% endblock %}
