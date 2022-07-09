@@ -6,7 +6,7 @@ from main import App
 app = Flask(__name__)
 uri = "neo4j+s://276bf72a.databases.neo4j.io"
 user = "neo4j"
-password = "rKG16ozLZOveVMG9NY3JpGl94nfdkJ9Pr6aY6GJ9zYc"
+password = "***"
 neofj = App(uri, user, password)
 exist_user = False
 keyword = ""
