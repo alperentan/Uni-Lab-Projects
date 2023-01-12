@@ -35,7 +35,7 @@ namespace Yazlab1_1Kargo
         {
             InitializeComponent();
             lastDel.id = -1;
-            GMapProviders.GoogleMap.ApiKey = @"AIzaSyCBcEiDsMVQSkuf47r7zBYU16et6KPO7vg";
+            GMapProviders.GoogleMap.ApiKey = @"KEY";
             GMaps.Instance.Mode = AccessMode.ServerAndCache;
             createCargoPanMap.CacheLocation = @"cache";
             createCargoPanMap.DragButton = MouseButtons.Right;
