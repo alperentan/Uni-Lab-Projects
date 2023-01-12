@@ -20,7 +20,8 @@ import json
 from datetime import datetime
 exist_user=None
 
-myclient = pymongo.MongoClient("mongodb+srv://tanalperen8:oNNcmdOBMJYBk48l@yazlab21.0mqdb.mongodb.net/cars?retryWrites=true&w=majority")
+constring = "CONNSTRING"
+myclient = pymongo.MongoClient(constring)
 mydb = myclient["cars"]
 mycol = mydb["carsCollection2"]
 counter = 0
